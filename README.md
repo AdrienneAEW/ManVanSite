@@ -1,2 +1,2 @@
 # ManVanSite
-A small website built from scratch using HTML, CSS and JavaScript.  More of a practice for AEW...I'm learning and praticing Every web development/design position I see seems to askfor Git.  Praise God for coders - the best folks on the planet.  You all are so generous.
+A small website built from scratch using HTML, CSS and JavaScript.  This respository is more about practicing and learning how to use Git.  Every web development/design position I see seems to ask for Git. Building this site, as I study JavaScript, using Git is a great way for me to practice what I'm learning. Praise God for coders - the best folks on the planet.  You all are so generous.

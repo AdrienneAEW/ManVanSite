@@ -9,3 +9,9 @@ var edited = new Date(document.lastModified);
     document.getElementById("updateDate").innerHTML = days[edited.getDay()] + ", " + months[edited.getMonth()] + " " + edited.getDate() + ", " + edited.getFullYear();
     
 //HOME PAGE
+
+//JavaScript Practice
+function myFunction() {
+    var x = document.getElementsByClassName("section-title");
+document.getElementById("demo").innerHTML = "Section Title Element: " + " " + x;
+}

@@ -120,6 +120,11 @@ a:hover {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+/* Links */
+button {
+	margin-left: 16px;
+}
+
 /* Form */
 label {
 	margin-bottom: 8px;
@@ -232,7 +237,13 @@ header {
 
 /* MAIN 
 ---------------*/
+.section-title {
+	margin-left: 16px;
+	margin-right: 16px;
+}
 .section-subtitle {
+	margin-left: 20px;
+	margin-right: 20px;
 	font-size: 1.6em;
 }
 .section-paragraph {
@@ -282,7 +293,7 @@ header {
 	text-align: center;
 }
 
-.content-subtitle {
+.content-subtitle-home {
 	background-color: #c8c3cc;
 	background-image: url("wavy-white-padding.jpg");
 	background-size: cover;

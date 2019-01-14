@@ -139,7 +139,6 @@ input[type=text], input[type=email], textarea {
 	letter-spacing: 2px;
 }
 
-
 .req-text{
 	color: tomato;
 	font-size: .75em;
@@ -151,8 +150,7 @@ input[type=text], input[type=email], textarea {
 #top {
 	position: fixed;
 	top: 0;
-	right: 8px;
-	width: 98.66%;
+	width: 100%;
 	
 }
 .page-nav {

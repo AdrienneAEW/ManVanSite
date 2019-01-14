@@ -1,0 +1,67 @@
+/* ALT PAGE STYLES */
+
+/* AEDubyah Footer */
+#bb-footer {
+	background-color: #585858;
+	color: #f2f2f2;
+	padding: 8px 12px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+#bb-footer ul {
+	list-style-type: none;
+	-webkit-margin-before: .43em;
+    -webkit-margin-after: .43em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+#bb-footer  a {
+	text-decoration: none;
+	color: #e8e8e8;
+	font-size: .80em;
+}
+
+.bbcredit-p {
+	font-size: .80em;
+}
+
+#bb-footer  a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.bbfooter-title, .aew-credit {
+	font-size: .90em;
+	font-weight: 700;
+}
+
+.bbfooter-title {
+	-webkit-margin-before: .43em;
+    -webkit-margin-after: .43em;
+	margin-top: .43em;
+}
+
+.bbcredit-p, .bb-dropdown {
+	display: none;
+}
+
+.aew-credit:hover .bb-dropdown {
+	display: block;
+}
+
+.page-credits:hover .bbcredit-p {
+	display: block;
+}
+
+#aedubyah-sample-footer {
+	background-color: #585858;
+	color: #f2f2f2;
+	padding: 8px;
+}
+
+/* @ MEDIA 
+---------------*/

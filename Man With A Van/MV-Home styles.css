@@ -353,6 +353,12 @@ header {
 	text-decoration: none;
 }
 
+/* Contact Page */
+#MV-Contact-Form {
+	width: 80%;
+	margin: 16px auto;
+}
+
 /* FOOTER 
 ---------------*/
 /* page footer */

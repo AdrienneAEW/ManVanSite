@@ -130,7 +130,7 @@ input[type=text], input[type=email], textarea {
 
 /* NAV
 --------------*/
-#top {
+#mv-nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -212,6 +212,10 @@ header {
 
 /* MAIN 
 ---------------*/
+.page-updated {
+	font-weight: 700;
+	margin-left: 75%;
+}
 .section-subtitle {
 	font-size: 1.6em;
 }

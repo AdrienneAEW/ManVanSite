@@ -54,6 +54,9 @@ a:hover {
 	text-decoration: underline;
 }
 
+.mv-ul {
+list-style-type: none;
+}
 
 .special-text {
 	font-family: 'Lobster', cursive;
@@ -74,6 +77,8 @@ a:hover {
 	padding-top: 2.3%;
 	
 }
+
+
 /* Page Close */
 #close .article-heading {
 	font-weight: 1.6em;
@@ -147,7 +152,7 @@ input[type=text], input[type=email], textarea {
 
 /* NAV
 --------------*/
-#top {
+#mv-nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -230,6 +235,15 @@ header {
 
 /* MAIN 
 ---------------*/
+.page-updated {
+	font-weight: 700;
+	margin-left: 75%;
+}
+
+.section-title {
+	font-size: 2em;
+	font-weight: 700;
+}
 .section-subtitle {
 	font-size: 1.6em;
 }
@@ -296,7 +310,6 @@ header {
 }
 
 .sc-ul-home {
-	list-style-type: none;
 	width: 40%;
 	margin: 16px auto 0;
 }
@@ -353,6 +366,29 @@ header {
 	text-decoration: none;
 }
 
+/*About Page */
+#about-main {
+	padding: 0 28px;
+}
+
+.about-ul li i {
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+
+.about-li-text {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.about-special-ul {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.about-open-img img{
+	width: 95%;
+}
 /* Contact Page */
 #MV-Contact-Form {
 	width: 80%;

@@ -58,6 +58,11 @@ a:hover {
 list-style-type: none;
 }
 
+table, th, td {
+	border-collapse: collapse;
+}
+
+
 .special-text {
 	font-family: 'Lobster', cursive;
 	font-size: 1.2em;
@@ -235,6 +240,9 @@ header {
 
 /* MAIN 
 ---------------*/
+main {
+	padding: 0 24px 24px;
+}
 .page-updated {
 	font-weight: 700;
 	margin-left: 75%;
@@ -260,6 +268,9 @@ header {
 /* PAGES
 ---------------*/
 /* Home Page */
+#home-main {
+	padding: 0;
+}
 .home-open {
 	background-color:#6F97A2;
 	background-image: url("van-3676_1920.jpg");
@@ -292,6 +303,10 @@ header {
 	font-size: 22px;
 	text-indent: 0;
 	text-align: center;
+}
+
+.home-content {
+	padding: 16px 24px
 }
 
 .content-subtitle {
@@ -367,10 +382,18 @@ header {
 }
 
 /*About Page */
-#about-main {
+.about-open {
+	background-color:#484f4f;
 	padding: 0 28px;
 }
 
+.about-open-img img{
+	width: 95%;
+}
+
+.about-open-text {
+	background-color: #8ca3a3;
+}
 .about-ul li i {
 	margin-right: 10px;
 	margin-bottom: 8px;
@@ -386,13 +409,85 @@ header {
 	font-size: 1.5em;
 }
 
-.about-open-img img{
-	width: 95%;
+/* Pricing Page */
+#pricing-pic {
+	width: 50%;
 }
-/* Contact Page */
-#MV-Contact-Form {
+
+#mv-pricing {
+	display: flex;
+}
+
+.pricing-open {
+	background-color:#6F97A2;
+	background-image: url("eduard-militaru-dresser.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	min-height: 350px;
+	padding: 16px 24px;
+}
+
+#mv-pricing-section {
+	background-color: rgba(255,255,255, 0.8);
+	flex-basis: 45%;
+	padding: 8px;
+}
+
+#pricing-table {
 	width: 80%;
-	margin: 16px auto;
+}
+#pricing-table, #pricing-table th, #pricing-table td  {
+	border: 1px solid #BC583F;
+}
+
+.pricing-open-middle {
+	flex-basis: 30%;
+}
+
+.pricing-open-right {
+	flex-basis: 45%;
+	background-color:rgba(255, 255, 255, 0.74);
+}
+
+/* Testimonails Page */
+.testimonial {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: #8ca3a3;
+	width: 80%;
+	margin: 0 auto;
+}
+.testimonial-pic {
+	flex-basis: 15%;
+	background-color: #484f4f;
+	margin: 0;
+	padding: 10px;
+}
+
+.testimonial-pic img {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 200px;	
+}
+
+.testimonial-pic figcaption {
+	font-size: .75em;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 600;
+}
+
+.testimony {
+	font-weight: 600;
+}
+
+/* Contact Page */
+
+
+
+/* Alt Page */
+img #alt-road-pic {
+	width: 500px;
 }
 
 /* FOOTER 

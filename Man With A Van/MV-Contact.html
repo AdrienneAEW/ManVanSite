@@ -44,23 +44,20 @@
 <a href="https://unsplash.com/photos/oUhr-qMTJoc" target="_blank" title="Photo by: Luke Pamer @ Unsplash"><img class="header-img" src="https://picsum.photos/974/691?image=669" /></a>
 </div>
 </header>
-<main class="contact-main">
+<main id="contact-main">
 <span class="page-updated"><span> Page Updated: </span> <span id="updateDate"></span></span>
-<h1>I'm A Header 1</h1>
-  <p>Some text goes here.</p>
-  <p>picjumbo photo by: <a href="https://picjumbo.com/mountain-road/" title="PicJumbo Photo">Viktor Hanacek</a></p>
-<figure>
-  <img src="https://picsum.photos/955/631?image=442" />
-    <figcaption class="photo-credit"><strong>Photo by: &nbsp;</strong><a href="https://unsplash.com/photos/D2K1UZr4vxk" target="_blank" title="Sylwia Bartyzel Photo #442">Sylwia Bartyzel</a></figcaption>
-</figure>
+<section id="contact-content">
+	<section class="cf-open">
+	<h2 class="section-subtitle">You can Email Me, Text Me<br>or Catch Me On Social</h2>
+	<figure>
+		<img src="woman-calling-on-smartphone-picjumbo-com.jpg" height="500px"/>
+		<figcaption class="photo-credit"><strong>Photo by: &nbsp;</strong><a href="https://picjumbo.com/woman-calling-on-smartphone/" target="_blank" title="picjumbo photo">Viktor Hanacek</a></figcaption>
+	</figure>
+	</section>
+	<section class="cf-text">
+	<h3>Or just fill out the form and hit submit.</h3>
 
-<h3>Is the E-mail field empty:</h3>
-<p id="form-demo">Hello</p>
-
-<h3>Is the Phone field empty:</h3>
-<p id="form-demo1">Hello again</p>
-
-<form id="MV-Contact-Form" action="#" method="POST" onsubmit="submitMsg()"> 
+	<form id="MV-Contact-Form" action="#" method="POST" onsubmit="submitMsg()"> 
 	<label for="fname">First Name <span class="req-text">&#40;required&#41;</span></label>
 	<input type="text" name="fname" id="fname" value="" aria-label="First Name" required>
 
@@ -80,18 +77,27 @@
 	<input type="checkbox" name="inquiry2" value="Short Estimate"> Need an estimate for planned delivery in the next 3 months<br>
 	<input type="checkbox" name="inquiry3" value="Checking Fit"> Does my item fit in your van&#63;<br>
 	<input type="checkbox" name="inquiry4" value="Onsite Estimate"> Please visit me for an estimate. &#40;There is a charge for this service.  Fees start at &#36;25&#46;00&#41;.<br>
-  <input type="checkbox" name="inquiry5" value="Question"> I have a questions. &#40;Please summarize your inquiry below.&#41;
+<input type="checkbox" name="inquiry5" value="Question"> I have a questions. &#40;Please summarize your inquiry below.&#41;
 	</div>
 
 	<label for="msg">Message </label>
 	<textarea rows="3" aria-label="Message" name="msg" id="msg"></textarea><br>
 
-  <input type="submit" class="contact-btn"  value="Submit" title="I'm disabled." />
-</form>
+	<input type="submit" class="contact-btn"  value="Submit" title="I'm disabled." />
+	</form>
+	</section>
+</section>
+
+<h2>JavaScript Setup</h2>
+<h3>Is the E-mail field empty:</h3>
+<p id="form-demo">Hello</p>
+
+<h3>Is the Phone field empty:</h3>
+<p id="form-demo1">Hello again</p>
 
 <article id="close" class="contact-close">
 		<h3 class="article-heading">We Are Insured, Bonded and Licensed</h3>
-		</article>
+</article>
 </main>
 <footer id="page-footer">
 	<a class="pf-link" href="#top">Back to Top</a>

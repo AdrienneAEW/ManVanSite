@@ -19,7 +19,18 @@ var edited = new Date(document.lastModified);
 //Page Updated
 document.getElementById("updateDate").innerHTML = edited;
 document.getElementById("updateDate").innerHTML = days[edited.getDay()] + ", " + months[edited.getMonth()] + " " + edited.getDate() + ", " + edited.getFullYear();
-    
+
+//Back To Top Link
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+if(document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+  document.getElementById("top-of-page").style.display = "block";
+} else {
+  document.getElementById("top-of-page").style.display = "none";
+}
+}
+
+
 //HOME PAGE
 
 

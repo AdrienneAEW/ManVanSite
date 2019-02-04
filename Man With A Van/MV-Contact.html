@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Author" content="AEW">
 <meta name="description" content="Man With A Van Contact Page">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald:300" rel="stylesheet">
 <link rel="stylesheet" href="MV-Home styles.css">
 <link rel="icon" href="https://aedubyahinorder.com/wp-content/uploads/2017/10/SamplesLogo.png" type="image/gif" sizes="16x16">
@@ -31,6 +31,9 @@
 	<li class="nav-item">
 	<a class="nav-link active" href="MV-Contact.html" title="Contact Me" target="_blank"><i class="fas fa-envelope-open"></i> &nbsp; Contact</a>
 	</li>
+	<li class="nav-item">
+	<a class="nav-link" href="MV-FullPage.html" title="View the site as a full page." target="_blank"><i class="fas fa-clone"></i> &nbsp; MV-Full</a>
+	</li>
   </ul>
 </nav>
 </section>
@@ -46,7 +49,7 @@
 </header>
 <main id="contact-main">
 <span class="page-updated"><span> Page Updated: </span> <span id="updateDate"></span></span>
-<section id="contact-content">
+<section id="contact-content" class="main-content">
 	<section class="cf-open">
 	<h2 class="section-subtitle">You can Email Me, Text Me<br>or Catch Me On Social</h2>
 	<figure>
@@ -65,11 +68,11 @@
 	<input type="text" name="lname" id="lname" value="" aria-label="Last Name" required>
 
 	<h3>You <strong>must provided</strong> either an E-mail address or phone number. Feel free to leave both an e-mail and a phone number.</h3>
-	<label for="email">E-mail </label>
-	<input type="email" name="email" id="e-mail" value="" aria-label="E-mail address"  />
+	<label for="cf-email">E-mail </label>
+	<input type="email" name="email" id="cf-email" value="" aria-label="E-mail address"  />
 
-	<label for="phone">Phone </label>
-	<input type="tel" name="phone" id="phone" value="" aria-label="Phone number"  />
+	<label for="cf-phone">Phone </label>
+	<input type="tel" name="phone" id="cf-phone" value="" aria-label="Phone number"  />
 	
 	<div id="submit-reason">
 	<h3>Choose a reason&#40;s&#41; for inquiry from below&#58;</h3>
@@ -83,51 +86,54 @@
 	<label for="msg">Message </label>
 	<textarea rows="3" aria-label="Message" name="msg" id="msg"></textarea><br>
 
-	<input type="submit" class="contact-btn"  value="Submit" title="I'm disabled." />
+	<input type="submit" class="contact-btn"  value="Submit" title="This form is for demostration only. There will be no response to your submission." />
 	</form>
 	</section>
 </section>
 
-<h2>JavaScript Setup</h2>
-<h3>Is the E-mail field empty:</h3>
-<p id="form-demo">Hello</p>
-
-<h3>Is the Phone field empty:</h3>
-<p id="form-demo1">Hello again</p>
-
 <article id="close" class="contact-close">
 		<h3 class="article-heading">We Are Insured, Bonded and Licensed</h3>
 </article>
+
+<section id="site-credits">
+<section class="page-credits">
+	<p class="bbfooter-title">Credits&nbsp;<i class="fas fa-caret-down"></i></p>
+	<p class="bbcredit-p">Cushion Photo by: &nbsp;<a href="https://unsplash.com/photos/9f1gCaLkZBU" title="David Jorre photo at Unsplash">David Jorre</a></p>
+	<p class="bbcredit-p">Open Van Photo Courtesy: <a href="https://pixabay.com/en/van-automobile-business-car-cargo-3676/" title="View this photo on Pixaby.com">Pixabay.com</a></p>
+	<p class="bbcredit-p">Uncredited Images: &nbsp;Hover over images for credit links.</p>
+	<p class="bbcredit-p">Ipsum Text:&nbsp; <a href="http://www.catipsum.com/" target="_blank" title="Visit Cat Ipsum.com">Cat Ipsum</a></p>
+	</section>
+</section>
 <a id="top-of-page" href="#top" title="Back to Top"><i class="fas fa-arrow-alt-circle-up fa-2x"></i></a>
 </main>
-<footer id="page-footer">
-	<span class="footer-logo"><i class="fas fa-map-signs fa-sm"></i>&nbsp; Man With A Van&nbsp;<sup><i class="far fa-copyright fa-sm"></i></sup></span>
-	<p class="credit">Header Photo: &nbsp;<a href="https://unsplash.com/photos/oUhr-qMTJoc" target="_blank" title="Unsplash's Photo by Luke Pamer">Luke Pamer</a>
-	</p>
 
-	<ul>	
-	<li class="pf-item">
-	<a class="pf-link" href="https://www.aedubyahinorder.com/SiteTerms.html" data-placement="top" data-toggle="tooltip" target="_blank" title="View terms and conditions for this site.">Site Terms</a>
-	</li>
-	<li class="pf-item">
-	<a class="pf-link"  href="https://www.aedubyahinorder.com/PrivacyPolicy.html" data-placement="top" data-toggle="tooltip" target="_blank" title="View our site's privacy policy.">Privacy Policy</a>
-	</li>
-	</ul> 
-</footer>
-
-<footer id="bb-footer"class="bottom-bar">
-		<section class="page-credits">
-		<p class="bbfooter-title">Credits&nbsp;<i class="fas fa-caret-down"></i></p>
-		<p class="bbcredit-p">Cushion Photo by: &nbsp;<a href="https://unsplash.com/photos/9f1gCaLkZBU" title="David Jorre photo at Unsplash">David Jorre</a></p>
-		<p class="bbcredit-p">Open Van Photo Courtesy: <a href="https://pixabay.com/en/van-automobile-business-car-cargo-3676/" title="View this photo on Pixaby.com">Pixabay.com</a></p>
-		<p class="bbcredit-p">Uncredited Images: &nbsp;Hover over images for credit links.</p>
-		<p class="bbcredit-p">Ipsum Text:&nbsp; <a href="http://www.catipsum.com/" target="_blank" title="Visit Cat Ipsum.com">Cat Ipsum</a></p>
+<footer id="mv-footer">
+	<section id="mv-footer-content">
+		<span class="footer-logo"><i class="fas fa-map-signs"></i>&nbsp; Man With A Van&nbsp;<sup><i class="far fa-copyright fa-sm">&nbsp;<span class="copyright-date">2019</span></i></sup></span>
+		<section id="pf-social">
+			<span class="pf-social-container pf-linkedin-header"><a class="pf-social-link" href="#"><i class="fab fa-linkedin-in"></i></a></span>
+			<span class="pf-social-container pf-twitter-header"><a class="pf-social-link" href="#"><i class="fab fa-twitter"></i></a></span>
+			<span class="pf-social-container pf-facebook-header"><a class="pf-social-link" href="#"><i class="fab fa-facebook"></i></a></span>
+			<span class="pf-social-container pf-instagram-header"><a class="pf-social-link" href="#"><i class="fab fab fa-instagram"></i></a></span>
 		</section>
 		
-		<section class="bb-list">
+		<ul>	
+			<li class="pf-item">
+			<a class="pf-link" href="https://www.aedubyahinorder.com/SiteTerms.html" data-placement="top" data-toggle="tooltip" target="_blank" title="View terms and conditions for this site.">Site Terms</a>
+			</li>
+			<li class="pf-item">
+			<a class="pf-link"  href="https://www.aedubyahinorder.com/PrivacyPolicy.html" data-placement="top" data-toggle="tooltip" target="_blank" title="View our site's privacy policy.">Privacy Policy</a>
+			</li>
+		</ul> 
+	</section>
+	
+	<section class="bb-list">
 		<ul>
 			<li class="aew-credit">This is an AEDubyah Creation&nbsp;<i class="fas fa-caret-down"></i>
 				<ul class="bb-dropdown">
+				<li class="bb-item">
+				<a class="bb-link" href="https://unsplash.com/photos/oUhr-qMTJoc" data-placement="top" data-toggle="tooltip" target="_blank" title="Is an Unsplash Photo by Luke Pamer">Header Photo</a>
+				</li>
 				<li class="bb-item">
 				<a class="bb-link" href="https://www.aedubyahinorder.com/shop" data-placement="top" data-toggle="tooltip" target="_blank" title="Visit the AEDubyah's Shop">Shop AEDubyah</a>
 				</li>
@@ -143,9 +149,25 @@
 				</ul>
 			</li>
 		</ul>
-		</section>	
-	</footer>
-
+	</section>
+</footer>
 <script src="MV-Home-JavaScript.js"></script>
+<script>
+	//Form
+	
+	function submitMsg() {
+	var mfEmail = document.getElementById("cf-email").value;
+	var emptyEmail = Boolean(mfEmail == "");
+	
+	var mfPhone = document.getElementById("cf-phone").value;
+	var emptyPhone = Boolean(mfPhone == "");
+	
+		if(emptyEmail == true && emptyPhone == true ) {
+			alert("You must enter either an email address or a phone number.");
+		} else {
+			  alert("Your interest is appreciated.  We'll be in touch soon.");
+		}
+	}
+</script>
 </body>
 </html>

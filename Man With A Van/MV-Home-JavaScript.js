@@ -23,7 +23,7 @@ document.getElementById("updateDate").innerHTML = days[edited.getDay()] + ", " +
 //Back To Top Link
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-if(document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+if(document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
   document.getElementById("top-of-page").style.display = "block";
 } else {
   document.getElementById("top-of-page").style.display = "none";
@@ -31,20 +31,6 @@ if(document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
 }
 
 
-//HOME PAGE
+//Practice
 
 
-//CONTACT PAGE
-
-//Form
-var mfEmail = document.getElementById("e-mail").value;
-var emptyEmail = Boolean(mfEmail == "");
-document.getElementById("form-demo").innerHTML = emptyEmail;
-
-var mfPhone = document.getElementById("phone").value;
-var emptyPhone = Boolean(mfPhone == "");
-document.getElementById("form-demo1").innerHTML = emptyPhone;
-
-function submitMsg() {
-  alert("Your interest is appreciated.  We'll be in touch soon.");
-}

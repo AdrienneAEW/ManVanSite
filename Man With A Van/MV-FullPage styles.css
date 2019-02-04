@@ -1,0 +1,58 @@
+/* ELEMENTS 
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
+
+colors:
+light plum: #c8c3cc, rgb(200, 195, 204)
+plum: #563f46 - rgb(86, 63, 70)
+mid teal: #8ca3a3 - rgb(140, 163, 163)
+dark teal: #484f4f - rgb(79, 79, 79)
+deep coral: #BC583F - rgb(188, 88, 63)
+button:
+teal blue pale: #6F97A2 - rgb(111, 151, 162)
+teal blue mid: #577E89 - rgb(87, 126, 137)
+
+background:
+light grey: #FFFFFF - rgb(255, 255, 255)
+*/
+
+/* GLOBAL PAGE STYLES */
+
+
+/* HOME PAGE SECTION */
+#full-page-open {
+    background-color: #8ca3a3;
+}
+
+#full-page-open-content {
+    display: flex;
+   
+}
+
+/* CTA 1 Form */
+.fp-cta1-form {
+	width: 35%;
+	margin: 8px auto 0;
+	border: 2px double;
+	border-radius: 25px;
+    padding: 16px;
+}
+
+.fp-cta1-form a.form-restrictions-link {
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: .8em;
+}
+
+.fp-cta1-form a.form-restrictions-link:hover {
+	font-weight: 600;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+
+

@@ -139,7 +139,6 @@ input[type=text], input[type=email], textarea {
 	letter-spacing: 2px;
 }
 
-
 .req-text{
 	color: tomato;
 	font-size: .75em;
@@ -151,8 +150,7 @@ input[type=text], input[type=email], textarea {
 #top {
 	position: fixed;
 	top: 0;
-	right: 8px;
-	width: 98.66%;
+	width: 100%;
 	
 }
 .page-nav {
@@ -253,12 +251,13 @@ header {
 	background-image: url("van-3676_1920.jpg");
 	background-size: cover;
 	background-position: left bottom;
-	min-height: 500px;
+	min-height: 700px;
 	padding: 16px 24px;
 }
+
 .front-plate {
 	width: 42%;
-	margin: 75px 0 16px 23%;
+	margin: 250px 0 16px 23%;
 	background-color: rgba(87, 126, 137, 0.8);
 	padding: 16px;
 	border-radius: 25%;
@@ -352,6 +351,12 @@ header {
 	color: #BC583F;
 	padding: 8px 12px;
 	text-decoration: none;
+}
+
+/* Contact Page */
+#MV-Contact-Form {
+	width: 80%;
+	margin: 16px auto;
 }
 
 /* FOOTER 
@@ -458,8 +463,21 @@ header {
 
 @media screen and (max-width: 940px) {
 
+	/* Navigation */
 	.page-nav ul li a:hover {
 		font-size: 1.25em;
+	}
+
+	/* Home Page */
+	.home-open {
+		background-position: center bottom;
+		min-height: 500px;
+	}
+	
+	.front-plate {
+		width: 60%;
+		margin: 40% 0 23% 12%;
+		padding: 18px 18px 15px;
 	}
 	
 }
@@ -493,6 +511,18 @@ header {
 
 .page-nav:hover .pnav-links {
 	display: block;
+}
+
+/* Home Page */
+
+.home-open {
+	background-position: center bottom;
+	min-height: 300px;
+}
+.front-plate {
+	width: 80%;
+	margin: 40% 0 23% 1%;
+	padding: 18px 18px 15px;
 }
 	
 }

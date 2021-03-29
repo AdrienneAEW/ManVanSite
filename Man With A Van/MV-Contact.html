@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+<html lang="en-US"></html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Author" content="AEW">
 <meta name="description" content="Man With A Van Contact Page">
 <title>Man Van Contact</title>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald:300" rel="stylesheet">
 <link rel="stylesheet" href="MV-Home styles.css">
 <link rel="icon" href="https://aedubyahinorder.com/wp-content/uploads/2017/10/SamplesLogo.png" type="image/gif" sizes="16x16">
@@ -36,7 +37,7 @@
 <header class="contact-header">
 <i class="fas fa-map-signs"></i>
 <div class="header-text">
-<h1 class="page-title">Let Touch Base</h1>
+<h1 class="page-title">Let&#39;s Touch Base</h1>
 <h3 class="tagline">We're Ready To Rock and Roll</h3>
 </div>
 <div class="header-right">
@@ -51,7 +52,33 @@
   <img src="https://picsum.photos/955/631?image=442" />
     <figcaption class="photo-credit"><strong>Photo by: &nbsp;</strong><a href="https://unsplash.com/photos/D2K1UZr4vxk" target="_blank" title="Sylwia Bartyzel Photo #442">Sylwia Bartyzel</a></figcaption>
 </figure>
+<form id="MV-Contact-Form" action="/action_page.php" method="POST">
+	<label for="fname">First Name <span class="req-text">&#40;required&#41;</span></label>
+	<input type="text" name="fname" id="fname" value="" aria-label="First Name" required />
 
+	<label for="lname">Last Name <span class="req-text">&#40;required&#41;</span></label>
+	<input type="text" name="lname" id="lname" value="" aria-label="Last Name" required />
+	<h3>You <strong>must provided</strong> either an E-mail address or phone number. Feel free to leave both an e-mail and a phone number.</h3>
+	<label for="email">E-mail </label>
+	<input type="email" name="email" id="email" value="" aria-label="E-mail address"  />
+
+	<label for="phone">Phone </label>
+	<input type="tel" name="phone" id="email" value="" aria-label="Phone number"  />
+	
+	<div id="submit-reason">
+	<h3>Choose a reason&#40;s&#41; for inquiry from below&#58;</h3>
+	<input type="checkbox" name="inquiry1" value="Immediate Estimate"> Need an estimate asap.<br>
+	<input type="checkbox" name="inquiry2" value="Short Estimate"> Need an estimate for planned delivery in the next 3 months<br>
+	<input type="checkbox" name="inquiry3" value="Checking Fit"> Does my item fit in your van&#63;<br>
+	<input type="checkbox" name="inquiry4" value="Onsite Estimate"> Please visit me for an estimate. &#40;There is a charge for this service.  Fees start at &#36;25&#46;00.<br>
+  <input type="checkbox" name="inquiry5" value="Question"> I have a questions. &#40;Please summarize your question or questions below.&#41;
+	</div>
+
+	<label for="msg">Message </label>
+	<textarea rows="3" aria-label="Message" name="msg" id="msg"></textarea><br>
+
+  <input type="submit" class="contact-btn" formaction="" disabled title="I'm disabled.">
+</form>
 
 
 </main>
